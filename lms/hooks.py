@@ -3,14 +3,14 @@ import frappe
 from . import __version__ as app_version
 
 app_name = "frappe_lms"
-app_title = "Learning"
-app_publisher = "Frappe"
-app_description = "Open Source Learning Management System built with Frappe Framework"
+app_title = "Harshdeep LMS"
+app_publisher = "Harshdeep"
+app_description = "Harshdeep LMS - Learning Management System"
 app_icon_url = "/assets/lms/images/lms-logo.png"
-app_icon_title = "Learning"
+app_icon_title = "Harshdeep LMS"
 app_icon_route = "/lms"
 app_color = "grey"
-app_email = "jannat@frappe.io"
+app_email = "admin@harshdeeplms.com"
 app_license = "AGPL"
 required_apps = ["frappe/payments"]
 
@@ -277,7 +277,7 @@ add_to_apps_screen = [
 	{
 		"name": "lms",
 		"logo": "/assets/lms/frontend/learning.svg",
-		"title": "Learning",
+		"title": "Harshdeep LMS",
 		"route": f"/{get_lms_path()}",
 		"has_permission": "lms.lms.api.check_app_permission",
 	}
