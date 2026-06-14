@@ -29,12 +29,12 @@
 						<div class="text-base-medium text-ink-gray-9 leading-none">
 							<span
 								v-if="
-									branding.data?.app_name && branding.data?.app_name != 'Frappe'
+									branding.data?.app_name && branding.data?.app_name != 'Harshdeep'
 								"
 							>
 								{{ branding.data?.app_name }}
 							</span>
-							<span v-else> Learning </span>
+							<span v-else> Harshdeep LMS </span>
 						</div>
 						<div
 							v-if="userResource.data"
